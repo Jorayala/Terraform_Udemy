@@ -1,7 +1,7 @@
 terraform {
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "derekops"
+    organization = "Cris_Corp"
 
     workspaces {
       name = "mtc-aws"
